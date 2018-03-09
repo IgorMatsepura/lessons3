@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3817D1F2204D621700C49BB8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817D1F1204D621700C49BB8 /* SecondViewController.swift */; };
 		38465A4A204D3C6B003072CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38465A49204D3C6B003072CC /* AppDelegate.swift */; };
 		38465A4C204D3C6B003072CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38465A4B204D3C6B003072CC /* ViewController.swift */; };
 		38465A4F204D3C6B003072CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38465A4D204D3C6B003072CC /* Main.storyboard */; };
 		38465A51204D3C6B003072CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38465A50204D3C6B003072CC /* Assets.xcassets */; };
 		38465A54204D3C6B003072CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38465A52204D3C6B003072CC /* LaunchScreen.storyboard */; };
+		38465A5D204D3EB1003072CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38465A5C204D3EB1003072CC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3817D1F1204D621700C49BB8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		38465A46204D3C6B003072CC /* testNotif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNotif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38465A49204D3C6B003072CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38465A4B204D3C6B003072CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		38465A50204D3C6B003072CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38465A53204D3C6B003072CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38465A55204D3C6B003072CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38465A5C204D3EB1003072CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38465A5D204D3EB1003072CC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				38465A48204D3C6B003072CC /* testNotif */,
 				38465A47204D3C6B003072CC /* Products */,
+				38465A5B204D3EB1003072CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +63,20 @@
 				38465A49204D3C6B003072CC /* AppDelegate.swift */,
 				38465A4B204D3C6B003072CC /* ViewController.swift */,
 				38465A4D204D3C6B003072CC /* Main.storyboard */,
+				3817D1F1204D621700C49BB8 /* SecondViewController.swift */,
 				38465A50204D3C6B003072CC /* Assets.xcassets */,
 				38465A52204D3C6B003072CC /* LaunchScreen.storyboard */,
 				38465A55204D3C6B003072CC /* Info.plist */,
 			);
 			path = testNotif;
+			sourceTree = "<group>";
+		};
+		38465A5B204D3EB1003072CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38465A5C204D3EB1003072CC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3817D1F2204D621700C49BB8 /* SecondViewController.swift in Sources */,
 				38465A4C204D3C6B003072CC /* ViewController.swift in Sources */,
 				38465A4A204D3C6B003072CC /* AppDelegate.swift in Sources */,
 			);
